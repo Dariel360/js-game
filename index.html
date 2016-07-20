@@ -1,0 +1,27 @@
+<!DOCTYPE>
+<html>
+  <head>
+    <title>My first plain html5 game</title>
+    <style>
+      canvas{
+        display: block;
+        margin: 0 auto;
+        padding:0;
+      }
+      #player, #background {
+        display: none;
+      }
+      body{
+        margin:0;
+        padding: 0;
+      }
+      </style>
+  </head>
+  <body>
+    <img id="player" src="Bulbasaur.png"/>
+    <img id="background" src="Landscape.png"/>
+    <canvas id="canvas" width="1000" height="800"></canvas>
+    <script src="https://code.jquery.com/jquery-3.1.0.min.js" integrity="sha256-cCueBR6CsyA4/9szpPfrX3s49M9vUU5BgtiJj06wt/s=" crossorigin="anonymous"></script>
+    <script src="main.js"></script>
+  </body>
+</html>

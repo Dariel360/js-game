@@ -25,7 +25,7 @@ $(document).on("touchstart", function(e){
   if (touchY < player.y) player.velY = -10;
   if (touchY > player.y) player.velY = 10;
 });
-$(document).on("touchpad"){
+$(document).on("touchend", function(e){
 player.velX=0;
 player.velY=0;
 });

@@ -1,5 +1,5 @@
 var enemy = {
-  x:100,
+  x:800,
   y:600,
 velX : 0,
 velY : 0,
